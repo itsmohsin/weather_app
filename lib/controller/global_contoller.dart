@@ -45,12 +45,12 @@ class GlobalController extends GetxController {
     //get curent location
     return await Geolocator.getCurrentPosition(
             desiredAccuracy: LocationAccuracy.high)
-        .then((value) => {
-              //update our latitude and longitude
-              //update our location
-              _latitude.value = value.latitude,
-              _longitude.value = value.longitude,
-              _isLoading.value = false,
-            });
+        .then((value) {
+      //update our latitude and longitude
+      //update our location
+      _latitude.value = value.latitude;
+      _longitude.value = value.longitude;
+      _isLoading.value = false;
+    });
   }
 }

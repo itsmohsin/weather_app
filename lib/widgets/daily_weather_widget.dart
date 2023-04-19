@@ -10,7 +10,7 @@ class DailyWeatherWidget extends StatelessWidget {
 
 // string manuplation
   String getDay(final day) {
-    DateTime time = new DateTime.fromMillisecondsSinceEpoch(day * 1000);
+    DateTime time = DateTime.fromMillisecondsSinceEpoch(day * 1000);
     final x = DateFormat('EEE').format(time);
     return x;
   }

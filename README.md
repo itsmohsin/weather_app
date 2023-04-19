@@ -1,3 +1,3 @@
 # weather_app
 
-<img src="WeatherApp.png"  width=auto height=auto>
+<img src="iPhone 14 Pro Max.png"  width=auto height=auto>

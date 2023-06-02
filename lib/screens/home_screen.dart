@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:weather_app/controller/global_contoller.dart';
-import 'package:weather_app/model/weather_data_current.dart';
-import 'package:weather_app/model/weather_data_hourly.dart';
+// import 'package:weather_app/model/weather_data_current.dart';
+// import 'package:weather_app/model/weather_data_hourly.dart';
 import 'package:weather_app/utils/custom_color.dart';
 import '../widgets/comfort_level_widget.dart';
 import '../widgets/current_weather_widget.dart';
